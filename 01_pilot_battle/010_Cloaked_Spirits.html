@@ -1,0 +1,37 @@
+<a></a><a></a><a></a>
+<style>
+  * {
+    background: #62306D;
+    margin: 0;
+  }
+  a {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    margin: 200px 50px;
+  }
+  a:nth-of-type(2) {
+    top: -100px;
+    left: 100px;
+    height: 200px;
+  }
+  a:nth-of-type(3) {
+    left: 200px;
+  }
+  a:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: -50px 0px;
+    background: #E38F66;
+    border: 20px solid #AA445F;
+  }
+  a:nth-of-type(2):after {
+    background: #AA445F;
+    border: 20px solid #E38F66;
+  }
+</style>
