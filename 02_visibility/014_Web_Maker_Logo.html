@@ -1,0 +1,37 @@
+<a></a>
+<b></b>
+<style>
+  body {
+    margin: 0;
+    background: #F2F2B6;
+  }
+  a, a:before, b, b:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 130px solid #FD4602;
+  }
+  a {
+    top: 85px;
+    left: 80px;
+  }
+  a:before {
+    content: "";
+    left: -95px;
+    top: -130px;
+    border-top: 130px solid #FF6D00;
+  }
+  b {
+    transform: rotate(180deg);
+    top: 85px;
+    left: 190px;
+    border-top: 130px solid #FF6D00;
+  }
+  b:before {
+    content: "";
+    left: -55px;
+    top: -130px;
+  }
+</style>

@@ -1,0 +1,37 @@
+<a></a>
+<b></b>
+<c></c>
+<style>
+  * {margin: 0; background: #09042A;}
+  a, a:after, c, c:after {
+    display: block;
+    margin: 120px 110px;
+    width: 60px;
+    height:60px;
+    outline: 10px solid #E78481;
+    border-radius: 50%;
+  }
+  b {
+    position: absolute;
+    display: block;
+    top: 120px;
+    left: 170px;
+    width: 60px;
+    height: 60px;
+    background: #E78481;
+  }
+  a:after, c:after {
+    content:"";
+    margin-left: 120px;
+  }
+  c, c:after {
+    z-index: 3;
+    margin: -233px 170px;
+    position: absolute;
+    background: #F5BB9C;
+    outline: 10px solid #09042A;
+  }
+  c:after {
+    margin: 106px 0;
+  }
+</style>

@@ -1,0 +1,42 @@
+<x><a></a></x>
+<y><b></b></y>
+<style>
+  * {
+    background: #09042A;
+    margin: 0;
+  }
+  x, y {
+    overflow: hidden;
+    width: 200px;
+  }
+  y {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+  }
+  a, b {
+    display: block;
+    margin: 75px;
+    width: 150px;
+    height: 150px;
+    background: #7B3F61;
+    border-radius: 50%;
+  }
+  a::after, b::after {
+    content: "";
+    display: block;
+    background: #09042A;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    left: 100px;
+  }
+  b {
+    margin: 75px -25px;
+    background: #E78481;
+  }
+  b::after {
+    left: -100px;
+  }
+</style>

@@ -1,0 +1,30 @@
+<x>
+  <a></a><a></a>
+  <a></a><a></a>
+  <a></a><a></a>
+</x>
+<style>
+  *{margin: 0px; background: #5C434C;}
+  x{display: flex; flex-wrap: wrap;}
+  a, a:after {
+    display: block;
+    border-radius: 100% 0 0 0;
+    margin:10px 110px 10px 10px;
+    width: 80px;
+    height: 80px;
+    background: #F09462;
+  }
+  a:after {
+    content: "";
+    margin: 0 0 0 100px;;
+    background: #F5D6B4;
+  }
+  a:nth-of-type(3),
+  a:nth-of-type(4) {
+    background: #F5D6B4;
+  }
+  a:nth-of-type(3):after,
+  a:nth-of-type(4):after {
+    background: #F09462;
+  }
+</style>
