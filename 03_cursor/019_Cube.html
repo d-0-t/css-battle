@@ -1,0 +1,39 @@
+<s></s><s></s><s></s><s></s><c></c>
+<style>
+  *{margin:0 auto;background:#0B2429;}
+  c,s{
+    position: absolute;}
+  c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 135px 150px;
+    background: #F3AC3C;
+    transform:rotate(45deg);
+  }
+  s {
+    background: none;
+    content:"";
+    width: 0; 
+    height: 0; 
+    border-left:50px solid #998235;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #998235;
+    transform: rotate(-46deg);
+    margin: 72px 133px;
+  }
+  s:nth-of-type(2) {
+    transform: rotate(135deg);
+    margin: 108px 97px;
+  }
+  s:nth-of-type(3), s:nth-of-type(4) {
+    transform: rotate(45deg);
+    border-top: 50px solid #1A4341;
+    border-left:50px solid transparent;
+    margin: 73px 168px;
+  }
+  s:nth-of-type(4) {
+    transform: rotate(225deg);
+    margin: 108px 203px;
+  }
+</style>
