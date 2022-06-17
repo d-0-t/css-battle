@@ -10,3 +10,6 @@ You can see my profile [[here]](https://cssbattle.dev/player/d0t), but the site 
 
 ## #2 - Visibility
 ![#2 - Visibility](https://raw.githubusercontent.com/d-0-t/css-battle/main/images/02_Visibility.png)
+
+## #3 - Cursor
+![#3 - Cursor](https://raw.githubusercontent.com/d-0-t/css-battle/main/images/03_Cursor.png)
